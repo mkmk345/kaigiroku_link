@@ -1,0 +1,9 @@
+# 追跡は下記のみ（allowlist）
+*
+!.gitignore
+!index.html
+!style.css
+!script.js
+!cities_all.xml
+!favicon.svg
+!README.md

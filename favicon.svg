@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Gi">
+  <circle cx="16" cy="16" r="15" fill="#0d3b7a"/>
+  <text
+    x="16"
+    y="16.5"
+    fill="#e4e9f0"
+    font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, Yu Gothic UI, Meiryo, sans-serif"
+    font-size="17"
+    font-weight="700"
+    text-anchor="middle"
+    dominant-baseline="central">&#x30AE;</text>
+</svg>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>市区町村議会会議録検索リンク</title>
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAzMic+PGNpcmNsZSBjeD0nMTYnIGN5PScxNicgcj0nMTUnIGZpbGw9JyMwZDNiN2EnLz48dGV4dCB4PScxNicgeT0nMTYuNScgZmlsbD0nI2U0ZTlmMCcgZm9udC1mYW1pbHk9J3NhbnMtc2VyaWYnIGZvbnQtc2l6ZT0nMTcnIGZvbnQtd2VpZ2h0PSc3MDAnIHRleHQtYW5jaG9yPSdtaWRkbGUnIGRvbWluYW50LWJhc2VsaW5lPSdjZW50cmFsJz4mI3gzMEFFOzwvdGV4dD48L3N2Zz4=" type="image/svg+xml">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">市区町村議会会議録検索リンク</h1>
+        <h2 class="attention">注意事項</h2>
+        <ul>
+            <li>会議録への誘導は ssp.kaigiroku.net のテナントのみです。他の仕組みは対象外です。</li>
+            <li>本サイトの情報は参考用であり、正確性・最新性等を保証しません。</li>
+            <li>リンク先は第三者のサービスです。表示・検索の可否や利用条件について当サイトは保証せず、責任を負いません。</li>
+            <li>一覧は <a href="https://github.com/code4fukui/localgovjp" target="_blank" rel="noopener noreferrer">localgovjp</a>（<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0</a>）を基に当サイトで加工しています。英字スラッグは URL から機械的に付与しており、誤りや重複により正しく開けないことがあります。</li>
+        </ul>
+        <div class="pref-row">
+            <label for="prefSelect">都道府県</label>
+            <select id="prefSelect" name="prefecture">
+                <option value="">都道府県を選択してください</option>
+            </select>
+        </div>
+        <ul id="cities"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

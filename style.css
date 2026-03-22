@@ -1,0 +1,41 @@
+body{
+     background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    margin-top: 2rem;
+    font-size: large;
+}
+
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.pref-row {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.pref-row label {
+    font-weight: 600;
+}
+
+#prefSelect {
+    min-width: 12rem;
+    max-width: 100%;
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+}
+
