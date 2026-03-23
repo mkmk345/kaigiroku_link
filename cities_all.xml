@@ -220,7 +220,7 @@
     </city>
     <city>
         <ja>森町</ja>
-        <en>hokkaido-mori</en>
+        <en>mori</en>
         <result>ng</result>
     </city>
     <city>
@@ -235,7 +235,7 @@
     </city>
     <city>
         <ja>江差町</ja>
-        <en>hokkaido-esashi</en>
+        <en>esashi</en>
         <result>ng</result>
     </city>
     <city>
@@ -310,7 +310,7 @@
     </city>
     <city>
         <ja>京極町</ja>
-        <en>town-kyogoku</en>
+        <en>kyogoku</en>
         <result>ng</result>
     </city>
     <city>
@@ -385,7 +385,7 @@
     </city>
     <city>
         <ja>長沼町</ja>
-        <en>maoi-net</en>
+        <en>maoi</en>
         <result>ng</result>
     </city>
     <city>
@@ -460,7 +460,7 @@
     </city>
     <city>
         <ja>上川町</ja>
-        <en>hokkaido-kamikawa</en>
+        <en>kamikawa</en>
         <result>ng</result>
     </city>
     <city>
@@ -750,7 +750,7 @@
     </city>
     <city>
         <ja>新ひだか町</ja>
-        <en>shinhidaka-hokkaido</en>
+        <en>shinhidaka</en>
         <result>ng</result>
     </city>
     <city>
@@ -775,7 +775,7 @@
     </city>
     <city>
         <ja>新得町</ja>
-        <en>shintoku-town</en>
+        <en>shintoku</en>
         <result>ng</result>
     </city>
     <city>
@@ -815,7 +815,7 @@
     </city>
     <city>
         <ja>池田町</ja>
-        <en>hokkaido-ikeda</en>
+        <en>ikeda</en>
         <result>ng</result>
     </city>
     <city>
@@ -850,7 +850,7 @@
     </city>
     <city>
         <ja>厚岸町</ja>
-        <en>akkeshi-town</en>
+        <en>akkeshi</en>
         <result>ng</result>
     </city>
     <city>
@@ -895,7 +895,7 @@
     </city>
     <city>
         <ja>羅臼町</ja>
-        <en>rausu-town</en>
+        <en>rausu</en>
         <result>ng</result>
     </city>
   </prefecture>
@@ -1089,7 +1089,7 @@
     </city>
     <city>
         <ja>南部町</ja>
-        <en>aomori-nanbu</en>
+        <en>nanbu</en>
         <result>ng</result>
     </city>
     <city>
@@ -1392,7 +1392,7 @@
     </city>
     <city>
         <ja>松島町</ja>
-        <en>miyagi-matsushima</en>
+        <en>matsushima</en>
         <result>ng</result>
     </city>
     <city>
@@ -1412,7 +1412,7 @@
     </city>
     <city>
         <ja>大郷町</ja>
-        <en>miyagi-osato</en>
+        <en>osato</en>
         <result>ng</result>
     </city>
     <city>
@@ -1481,7 +1481,7 @@
     </city>
     <city>
         <ja>湯沢市</ja>
-        <en>city-yuzawa</en>
+        <en>yuzawa</en>
         <result>ng</result>
     </city>
     <city>
@@ -1585,7 +1585,7 @@
     <en>yamagata</en>
     <city>
         <ja>山形市</ja>
-        <en>yamagata-yamagata</en>
+        <en>yamagata</en>
         <result>ng</result>
     </city>
     <city>
@@ -1819,7 +1819,7 @@
     </city>
     <city>
         <ja>伊達市</ja>
-        <en>fukushima-date</en>
+        <en>date</en>
         <result>ng</result>
     </city>
     <city>
@@ -1944,7 +1944,7 @@
     </city>
     <city>
         <ja>中島村</ja>
-        <en>vill-nakajima</en>
+        <en>nakajima</en>
         <result>ng</result>
     </city>
     <city>
@@ -2019,7 +2019,7 @@
     </city>
     <city>
         <ja>富岡町</ja>
-        <en>tomioka-town</en>
+        <en>tomioka</en>
         <result>ng</result>
     </city>
     <city>
@@ -2034,7 +2034,7 @@
     </city>
     <city>
         <ja>双葉町</ja>
-        <en>fukushima-futaba</en>
+        <en>futaba</en>
         <result>ng</result>
     </city>
     <city>
@@ -2049,7 +2049,7 @@
     </city>
     <city>
         <ja>新地町</ja>
-        <en>shinchi-town</en>
+        <en>shinchi</en>
         <result>ng</result>
     </city>
     <city>
@@ -2078,7 +2078,7 @@
     </city>
     <city>
         <ja>古河市</ja>
-        <en>ibaraki-koga</en>
+        <en>koga</en>
         <result>ng</result>
     </city>
     <city>
@@ -2258,12 +2258,12 @@
     </city>
     <city>
         <ja>河内町</ja>
-        <en>ibaraki-kawachi</en>
+        <en>kawachi</en>
         <result>ng</result>
     </city>
     <city>
         <ja>八千代町</ja>
-        <en>ibaraki-yachiyo</en>
+        <en>yachiyo</en>
         <result>ng</result>
     </city>
     <city>
@@ -2273,7 +2273,7 @@
     </city>
     <city>
         <ja>境町</ja>
-        <en>ibaraki-sakai</en>
+        <en>sakai</en>
         <result>ng</result>
     </city>
     <city>
@@ -2342,7 +2342,7 @@
     </city>
     <city>
         <ja>さくら市</ja>
-        <en>tochigi-sakura</en>
+        <en>sakura</en>
         <result>ng</result>
     </city>
     <city>
@@ -2377,7 +2377,7 @@
     </city>
     <city>
         <ja>芳賀町</ja>
-        <en>tochigi-haga</en>
+        <en>haga</en>
         <result>ng</result>
     </city>
     <city>
@@ -2407,7 +2407,7 @@
     </city>
     <city>
         <ja>那珂川町</ja>
-        <en>tochigi-nakagawa</en>
+        <en>nakagawa</en>
         <result>ng</result>
     </city>
   </prefecture>
@@ -2795,12 +2795,12 @@
     </city>
     <city>
         <ja>伊奈町</ja>
-        <en>saitama-ina</en>
+        <en>ina</en>
         <result>ng</result>
     </city>
     <city>
         <ja>三芳町</ja>
-        <en>saitama-miyoshi</en>
+        <en>miyoshi</en>
         <result>ng</result>
     </city>
     <city>
@@ -2875,7 +2875,7 @@
     </city>
     <city>
         <ja>美里町</ja>
-        <en>saitama-misato</en>
+        <en>misato</en>
         <result>ng</result>
     </city>
     <city>
@@ -3253,7 +3253,7 @@
     </city>
     <city>
         <ja>中野区</ja>
-        <en>tokyo-nakano</en>
+        <en>nakano</en>
         <result>ng</result>
     </city>
     <city>
@@ -4043,7 +4043,7 @@
     </city>
     <city>
         <ja>坂井市</ja>
-        <en>fukui-sakai</en>
+        <en>sakai</en>
         <result>ng</result>
     </city>
     <city>
@@ -4068,7 +4068,7 @@
     </city>
     <city>
         <ja>美浜町</ja>
-        <en>fukui-mihama</en>
+        <en>mihama</en>
         <result>ng</result>
     </city>
     <city>
@@ -4083,7 +4083,7 @@
     </city>
     <city>
         <ja>若狭町</ja>
-        <en>fukui-wakasa</en>
+        <en>wakasa</en>
         <result>ng</result>
     </city>
   </prefecture>
@@ -4326,7 +4326,7 @@
     </city>
     <city>
         <ja>小海町</ja>
-        <en>koumi-town</en>
+        <en>koumi</en>
         <result>ng</result>
     </city>
     <city>
@@ -4431,7 +4431,7 @@
     </city>
     <city>
         <ja>高森町</ja>
-        <en>nagano-takamori</en>
+        <en>takamori</en>
         <result>ng</result>
     </city>
     <city>
@@ -4456,7 +4456,7 @@
     </city>
     <city>
         <ja>下條村</ja>
-        <en>vill-shimojo</en>
+        <en>shimojo</en>
         <result>ng</result>
     </city>
     <city>
@@ -4466,7 +4466,7 @@
     </city>
     <city>
         <ja>天龍村</ja>
-        <en>vill-tenryu</en>
+        <en>tenryu</en>
         <result>ng</result>
     </city>
     <city>
@@ -4481,7 +4481,7 @@
     </city>
     <city>
         <ja>豊丘村</ja>
-        <en>nagano-toyooka</en>
+        <en>toyooka</en>
         <result>ng</result>
     </city>
     <city>
@@ -4516,7 +4516,7 @@
     </city>
     <city>
         <ja>木曽町</ja>
-        <en>town-kiso</en>
+        <en>kiso</en>
         <result>ng</result>
     </city>
     <city>
@@ -4770,12 +4770,12 @@
     </city>
     <city>
         <ja>大野町</ja>
-        <en>town-ono</en>
+        <en>ono</en>
         <result>ng</result>
     </city>
     <city>
         <ja>池田町</ja>
-        <en>gifu-ikeda</en>
+        <en>ikeda</en>
         <result>ng</result>
     </city>
     <city>
@@ -4795,7 +4795,7 @@
     </city>
     <city>
         <ja>川辺町</ja>
-        <en>kawabe-gifu</en>
+        <en>kawabe</en>
         <result>ng</result>
     </city>
     <city>
@@ -5188,7 +5188,7 @@
     </city>
     <city>
         <ja>みよし市</ja>
-        <en>aichi-miyoshi</en>
+        <en>miyoshi</en>
         <result>ng</result>
     </city>
     <city>
@@ -5203,7 +5203,7 @@
     </city>
     <city>
         <ja>東郷町</ja>
-        <en>aichi-togo</en>
+        <en>togo</en>
         <result>ng</result>
     </city>
     <city>
@@ -5243,7 +5243,7 @@
     </city>
     <city>
         <ja>東浦町</ja>
-        <en>aichi-higashiura</en>
+        <en>higashiura</en>
         <result>ng</result>
     </city>
     <city>
@@ -5253,7 +5253,7 @@
     </city>
     <city>
         <ja>美浜町</ja>
-        <en>aichi-mihama</en>
+        <en>mihama</en>
         <result>ng</result>
     </city>
     <city>
@@ -5417,7 +5417,7 @@
     </city>
     <city>
         <ja>紀北町</ja>
-        <en>mie-kihoku</en>
+        <en>kihoku</en>
         <result>ng</result>
     </city>
     <city>
@@ -5481,7 +5481,7 @@
     </city>
     <city>
         <ja>湖南市</ja>
-        <en>shiga-konan</en>
+        <en>konan</en>
         <result>ng</result>
     </city>
     <city>
@@ -5501,7 +5501,7 @@
     </city>
     <city>
         <ja>日野町</ja>
-        <en>shiga-hino</en>
+        <en>hino</en>
         <result>ng</result>
     </city>
     <city>
@@ -5764,7 +5764,7 @@
     </city>
     <city>
         <ja>和泉市</ja>
-        <en>osaka-izumi</en>
+        <en>izumi</en>
         <result>ng</result>
     </city>
     <city>
@@ -6043,7 +6043,7 @@
     </city>
     <city>
         <ja>稲美町</ja>
-        <en>hyogo-inami</en>
+        <en>inami</en>
         <result>ng</result>
     </city>
     <city>
@@ -6068,7 +6068,7 @@
     </city>
     <city>
         <ja>太子町</ja>
-        <en>hyogo-taishi</en>
+        <en>taishi</en>
         <result>ng</result>
     </city>
     <city>
@@ -6182,7 +6182,7 @@
     </city>
     <city>
         <ja>川西町</ja>
-        <en>nara-kawanishi</en>
+        <en>kawanishi</en>
         <result>ng</result>
     </city>
     <city>
@@ -6381,7 +6381,7 @@
     </city>
     <city>
         <ja>日高町</ja>
-        <en>wakayama-hidaka</en>
+        <en>hidaka</en>
         <result>ng</result>
     </city>
     <city>
@@ -6391,7 +6391,7 @@
     </city>
     <city>
         <ja>印南町</ja>
-        <en>wakayama-inami</en>
+        <en>inami</en>
         <result>ng</result>
     </city>
     <city>
@@ -6525,7 +6525,7 @@
     </city>
     <city>
         <ja>伯耆町</ja>
-        <en>houki-town</en>
+        <en>houki</en>
         <result>ng</result>
     </city>
     <city>
@@ -6540,7 +6540,7 @@
     </city>
     <city>
         <ja>江府町</ja>
-        <en>town-kofu</en>
+        <en>kofu</en>
         <result>ng</result>
     </city>
   </prefecture>
@@ -6599,12 +6599,12 @@
     </city>
     <city>
         <ja>川本町</ja>
-        <en>shimane-kawamoto</en>
+        <en>kawamoto</en>
         <result>ng</result>
     </city>
     <city>
         <ja>美郷町</ja>
-        <en>shimane-misato</en>
+        <en>misato</en>
         <result>ng</result>
     </city>
     <city>
@@ -6951,7 +6951,7 @@
     </city>
     <city>
         <ja>柳井市</ja>
-        <en>city-yanai</en>
+        <en>yanai</en>
         <result>ng</result>
     </city>
     <city>
@@ -7040,7 +7040,7 @@
     </city>
     <city>
         <ja>三好市</ja>
-        <en>i-tokushima</en>
+        <en>i</en>
         <result>ng</result>
     </city>
     <city>
@@ -7070,12 +7070,12 @@
     </city>
     <city>
         <ja>那賀町</ja>
-        <en>tokushima-naka</en>
+        <en>naka</en>
         <result>ng</result>
     </city>
     <city>
         <ja>牟岐町</ja>
-        <en>tokushima-mugi</en>
+        <en>mugi</en>
         <result>ng</result>
     </city>
     <city>
@@ -7115,7 +7115,7 @@
     </city>
     <city>
         <ja>つるぎ町</ja>
-        <en>tokushima-tsurugi</en>
+        <en>tsurugi</en>
         <result>ng</result>
     </city>
     <city>
@@ -7367,7 +7367,7 @@
     </city>
     <city>
         <ja>香南市</ja>
-        <en>kochi-konan</en>
+        <en>konan</en>
         <result>ng</result>
     </city>
     <city>
@@ -7467,7 +7467,7 @@
     </city>
     <city>
         <ja>津野町</ja>
-        <en>kochi-tsuno</en>
+        <en>tsuno</en>
         <result>ng</result>
     </city>
     <city>
@@ -7716,7 +7716,7 @@
     </city>
     <city>
         <ja>東峰村</ja>
-        <en>toho-info</en>
+        <en>toho</en>
         <result>ng</result>
     </city>
     <city>
@@ -7751,7 +7751,7 @@
     </city>
     <city>
         <ja>川崎町</ja>
-        <en>town-kawasaki</en>
+        <en>kawasaki</en>
         <result>ng</result>
     </city>
     <city>
@@ -7830,7 +7830,7 @@
     </city>
     <city>
         <ja>鹿島市</ja>
-        <en>saga-kashima</en>
+        <en>kashima</en>
         <result>ng</result>
     </city>
     <city>
@@ -7934,7 +7934,7 @@
     </city>
     <city>
         <ja>松浦市</ja>
-        <en>city-matsuura</en>
+        <en>matsuura</en>
         <result>ng</result>
     </city>
     <city>
@@ -7999,7 +7999,7 @@
     </city>
     <city>
         <ja>佐々町</ja>
-        <en>sazacho-nagasaki</en>
+        <en>sazacho</en>
         <result>ng</result>
     </city>
     <city>
@@ -8083,7 +8083,7 @@
     </city>
     <city>
         <ja>美里町</ja>
-        <en>kumamoto-misato</en>
+        <en>misato</en>
         <result>ng</result>
     </city>
     <city>
@@ -8123,7 +8123,7 @@
     </city>
     <city>
         <ja>小国町</ja>
-        <en>kumamoto-oguni</en>
+        <en>oguni</en>
         <result>ng</result>
     </city>
     <city>
@@ -8153,7 +8153,7 @@
     </city>
     <city>
         <ja>嘉島町</ja>
-        <en>kumamoto-kashima</en>
+        <en>kashima</en>
         <result>ng</result>
     </city>
     <city>
@@ -8168,7 +8168,7 @@
     </city>
     <city>
         <ja>山都町</ja>
-        <en>kumamoto-yamato</en>
+        <en>yamato</en>
         <result>ng</result>
     </city>
     <city>
@@ -8188,7 +8188,7 @@
     </city>
     <city>
         <ja>錦町</ja>
-        <en>kumamoto-nishiki</en>
+        <en>nishiki</en>
         <result>ng</result>
     </city>
     <city>
@@ -8233,7 +8233,7 @@
     </city>
     <city>
         <ja>苓北町</ja>
-        <en>reihoku-kumamoto</en>
+        <en>reihoku</en>
         <result>ng</result>
     </city>
   </prefecture>
@@ -8252,7 +8252,7 @@
     </city>
     <city>
         <ja>中津市</ja>
-        <en>city-nakatsu</en>
+        <en>nakatsu</en>
         <result>ng</result>
     </city>
     <city>
@@ -8446,12 +8446,12 @@
     </city>
     <city>
         <ja>美郷町</ja>
-        <en>miyazaki-misato</en>
+        <en>misato</en>
         <result>ng</result>
     </city>
     <city>
         <ja>高千穂町</ja>
-        <en>town-takachiho</en>
+        <en>takachiho</en>
         <result>ng</result>
     </city>
     <city>
@@ -8490,7 +8490,7 @@
     </city>
     <city>
         <ja>出水市</ja>
-        <en>kagoshima-izumi</en>
+        <en>izumi</en>
         <result>ng</result>
     </city>
     <city>
@@ -8525,7 +8525,7 @@
     </city>
     <city>
         <ja>霧島市</ja>
-        <en>city-kirishima</en>
+        <en>kirishima</en>
         <result>ng</result>
     </city>
     <city>
@@ -8575,7 +8575,7 @@
     </city>
     <city>
         <ja>さつま町</ja>
-        <en>satsuma-net</en>
+        <en>satsuma</en>
         <result>ng</result>
     </city>
     <city>
@@ -8590,7 +8590,7 @@
     </city>
     <city>
         <ja>大崎町</ja>
-        <en>kagoshima-osaki</en>
+        <en>osaki</en>
         <result>ng</result>
     </city>
     <city>
@@ -8610,7 +8610,7 @@
     </city>
     <city>
         <ja>肝付町</ja>
-        <en>kimotsuki-town</en>
+        <en>kimotsuki</en>
         <result>ng</result>
     </city>
     <city>
@@ -8655,7 +8655,7 @@
     </city>
     <city>
         <ja>徳之島町</ja>
-        <en>tokunoshima-town</en>
+        <en>tokunoshima</en>
         <result>ng</result>
     </city>
     <city>
