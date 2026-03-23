@@ -236,7 +236,7 @@
     <city>
         <ja>江差町</ja>
         <en>esashi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>上ノ国町</ja>
@@ -461,7 +461,7 @@
     <city>
         <ja>上川町</ja>
         <en>kamikawa</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>東川町</ja>
@@ -816,7 +816,7 @@
     <city>
         <ja>池田町</ja>
         <en>ikeda</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>豊頃町</ja>
@@ -1482,7 +1482,7 @@
     <city>
         <ja>湯沢市</ja>
         <en>yuzawa</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>鹿角市</ja>
@@ -1820,7 +1820,7 @@
     <city>
         <ja>伊達市</ja>
         <en>date</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>本宮市</ja>
@@ -1945,7 +1945,7 @@
     <city>
         <ja>中島村</ja>
         <en>nakajima</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>矢吹町</ja>
@@ -2020,7 +2020,7 @@
     <city>
         <ja>富岡町</ja>
         <en>tomioka</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>川内村</ja>
@@ -2079,7 +2079,7 @@
     <city>
         <ja>古河市</ja>
         <en>koga</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>石岡市</ja>
@@ -2264,7 +2264,7 @@
     <city>
         <ja>八千代町</ja>
         <en>yachiyo</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>五霞町</ja>
@@ -2343,7 +2343,7 @@
     <city>
         <ja>さくら市</ja>
         <en>sakura</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>那須烏山市</ja>
@@ -2378,7 +2378,7 @@
     <city>
         <ja>芳賀町</ja>
         <en>haga</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>壬生町</ja>
@@ -2408,7 +2408,7 @@
     <city>
         <ja>那珂川町</ja>
         <en>nakagawa</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
   </prefecture>
   <prefecture>
@@ -2796,12 +2796,12 @@
     <city>
         <ja>伊奈町</ja>
         <en>ina</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>三芳町</ja>
         <en>miyoshi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>毛呂山町</ja>
@@ -2876,7 +2876,7 @@
     <city>
         <ja>美里町</ja>
         <en>misato</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>神川町</ja>
@@ -3254,7 +3254,7 @@
     <city>
         <ja>中野区</ja>
         <en>nakano</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>杉並区</ja>
@@ -4771,12 +4771,12 @@
     <city>
         <ja>大野町</ja>
         <en>ono</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>池田町</ja>
         <en>ikeda</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>北方町</ja>
@@ -5189,7 +5189,7 @@
     <city>
         <ja>みよし市</ja>
         <en>miyoshi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>あま市</ja>
@@ -5244,7 +5244,7 @@
     <city>
         <ja>東浦町</ja>
         <en>higashiura</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>南知多町</ja>
@@ -5482,7 +5482,7 @@
     <city>
         <ja>湖南市</ja>
         <en>konan</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>高島市</ja>
@@ -5765,7 +5765,7 @@
     <city>
         <ja>和泉市</ja>
         <en>izumi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>箕面市</ja>
@@ -6044,7 +6044,7 @@
     <city>
         <ja>稲美町</ja>
         <en>inami</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>播磨町</ja>
@@ -6183,7 +6183,7 @@
     <city>
         <ja>川西町</ja>
         <en>kawanishi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>三宅町</ja>
@@ -6392,7 +6392,7 @@
     <city>
         <ja>印南町</ja>
         <en>inami</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>みなべ町</ja>
@@ -6605,7 +6605,7 @@
     <city>
         <ja>美郷町</ja>
         <en>misato</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>邑南町</ja>
@@ -6952,7 +6952,7 @@
     <city>
         <ja>柳井市</ja>
         <en>yanai</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>美祢市</ja>
@@ -7071,7 +7071,7 @@
     <city>
         <ja>那賀町</ja>
         <en>naka</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>牟岐町</ja>
@@ -7368,7 +7368,7 @@
     <city>
         <ja>香南市</ja>
         <en>konan</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>香美市</ja>
@@ -7831,7 +7831,7 @@
     <city>
         <ja>鹿島市</ja>
         <en>kashima</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>小城市</ja>
@@ -8084,7 +8084,7 @@
     <city>
         <ja>美里町</ja>
         <en>misato</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>玉東町</ja>
@@ -8154,7 +8154,7 @@
     <city>
         <ja>嘉島町</ja>
         <en>kashima</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>益城町</ja>
@@ -8253,7 +8253,7 @@
     <city>
         <ja>中津市</ja>
         <en>nakatsu</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>日田市</ja>
@@ -8447,7 +8447,7 @@
     <city>
         <ja>美郷町</ja>
         <en>misato</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>高千穂町</ja>
@@ -8491,7 +8491,7 @@
     <city>
         <ja>出水市</ja>
         <en>izumi</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>指宿市</ja>
@@ -8611,7 +8611,7 @@
     <city>
         <ja>肝付町</ja>
         <en>kimotsuki</en>
-        <result>ng</result>
+        <result>ok</result>
     </city>
     <city>
         <ja>中種子町</ja>

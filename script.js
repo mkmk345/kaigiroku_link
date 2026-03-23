@@ -18,6 +18,28 @@ function parsePrefectures(xml) {
   return list;
 }
 
+function countSspOk(prefectures) {
+  let total = 0;
+  let ok = 0;
+  for (const p of prefectures) {
+    for (const c of p.cities) {
+      total += 1;
+      if ((c.result ?? "").toLowerCase() === "ok") ok += 1;
+    }
+  }
+  return { total, ok };
+}
+
+function renderSspStatsNote(el, ok, total) {
+  if (!el) return;
+  if (total === 0) {
+    el.textContent = "";
+    return;
+  }
+  const pct = ((100 * ok) / total).toFixed(1);
+  el.textContent = `現在の対応自治体数…${ok}/${total}（${pct}%）`;
+}
+
 function fillPrefSelect(select, prefectures) {
   const frag = document.createDocumentFragment();
   for (const p of prefectures) {
@@ -65,6 +87,9 @@ async function getData() {
     if (err) throw new Error("XML parse error");
 
     const prefectures = parsePrefectures(xml);
+    const { ok: okCount, total: totalCount } = countSspOk(prefectures);
+    renderSspStatsNote(document.getElementById("ssp-stats-note"), okCount, totalCount);
+
     fillPrefSelect(prefSelect, prefectures);
     const byEn = new Map(prefectures.map((p) => [p.en, p]));
 
