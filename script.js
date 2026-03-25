@@ -6,23 +6,25 @@ function parsePrefectures(xml) {
   for (const pref of prefNodes) {
     const prefJa = pref.querySelector(":scope > ja")?.textContent?.trim() ?? "";
     const prefEn = pref.querySelector(":scope > en")?.textContent?.trim() ?? "";
-    const cities = [];
-    for (const city of pref.querySelectorAll(":scope > city")) {
-      const ja = city.querySelector("ja")?.textContent?.trim() ?? "";
-      const en = city.querySelector("en")?.textContent?.trim() ?? "";
-      const result = city.querySelector("result")?.textContent?.trim() ?? "";
-      if (ja || en) cities.push({ ja: ja || en, en: en || ja, result });
+    const municipalities = [];
+    for (const mun of pref.querySelectorAll(":scope > municipality")) {
+      const ja = mun.querySelector("ja")?.textContent?.trim() ?? "";
+      const en = mun.querySelector("en")?.textContent?.trim() ?? "";
+      const url = mun.querySelector("url")?.textContent?.trim() ?? "";
+      const result = mun.querySelector("result")?.textContent?.trim() ?? "";
+      if (ja || en) municipalities.push({ ja: ja || en, en: en || ja, result, url });
     }
-    if (prefJa || prefEn) list.push({ ja: prefJa, en: prefEn, cities });
+    if (prefJa || prefEn) list.push({ ja: prefJa, en: prefEn, municipalities });
   }
   return list;
 }
 
-function countSspOk(prefectures) {
+/** XML の <result> が ok の自治体数（総数に対する割合） */
+function countResultOk(prefectures) {
   let total = 0;
   let ok = 0;
   for (const p of prefectures) {
-    for (const c of p.cities) {
+    for (const c of p.municipalities) {
       total += 1;
       if ((c.result ?? "").toLowerCase() === "ok") ok += 1;
     }
@@ -30,14 +32,14 @@ function countSspOk(prefectures) {
   return { total, ok };
 }
 
-function renderSspStatsNote(el, ok, total) {
+function renderStatsNote(el, ok, total) {
   if (!el) return;
   if (total === 0) {
     el.textContent = "";
     return;
   }
   const pct = ((100 * ok) / total).toFixed(1);
-  el.textContent = `現在の対応自治体数…${ok}/${total}（${pct}%）`;
+  el.textContent = `対応自治体数…${ok}/${total}（${pct}%）`;
 }
 
 function fillPrefSelect(select, prefectures) {
@@ -51,16 +53,15 @@ function fillPrefSelect(select, prefectures) {
   select.appendChild(frag);
 }
 
-function renderCityList(ul, cities) {
+function renderMunicipalityList(ul, municipalities) {
   ul.replaceChildren();
   const frag = document.createDocumentFragment();
-  for (const { ja, en, result } of cities) {
+  for (const { ja, url } of municipalities) {
     const li = document.createElement("li");
-    const ok = (result ?? "").toLowerCase() === "ok";
-    if (ok) {
+    if (url) {
       const a = document.createElement("a");
       a.textContent = ja;
-      a.href = `https://ssp.kaigiroku.net/tenant/${encodeURIComponent(en)}/SpTop.html`;
+      a.href = url;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       li.appendChild(a);
@@ -74,8 +75,8 @@ function renderCityList(ul, cities) {
 
 async function getData() {
   const prefSelect = document.getElementById("prefSelect");
-  const citiesArea = document.getElementById("cities");
-  if (!prefSelect || !citiesArea) return;
+  const listArea = document.getElementById("municipalities");
+  if (!prefSelect || !listArea) return;
 
   try {
     const res = await fetch(XML_URL);
@@ -87,8 +88,8 @@ async function getData() {
     if (err) throw new Error("XML parse error");
 
     const prefectures = parsePrefectures(xml);
-    const { ok: okCount, total: totalCount } = countSspOk(prefectures);
-    renderSspStatsNote(document.getElementById("ssp-stats-note"), okCount, totalCount);
+    const { ok: okCount, total: totalCount } = countResultOk(prefectures);
+    renderStatsNote(document.getElementById("stats-note"), okCount, totalCount);
 
     fillPrefSelect(prefSelect, prefectures);
     const byEn = new Map(prefectures.map((p) => [p.en, p]));
@@ -96,15 +97,15 @@ async function getData() {
     prefSelect.addEventListener("change", () => {
       const key = prefSelect.value;
       const pref = key ? byEn.get(key) : null;
-      if (pref) renderCityList(citiesArea, pref.cities);
-      else citiesArea.replaceChildren();
+      if (pref) renderMunicipalityList(listArea, pref.municipalities);
+      else listArea.replaceChildren();
     });
   } catch (e) {
     console.error("取得できませんでした", e);
-    citiesArea.replaceChildren();
+    listArea.replaceChildren();
     const li = document.createElement("li");
     li.textContent = "データを読み込めませんでした。";
-    citiesArea.appendChild(li);
+    listArea.appendChild(li);
   }
 }
 
